@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  align-content: center; 
+  flex-wrap: wrap;
+  justify-content: center;
+
+  height: 100px;
+  width: 100px;
+	margin: 15px;
+  background: #ccc;
+  border-radius: 20%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.itemName {
+  color:black;
+  font-size: 13px;
+}
+
+.itemImg {
+  height: 40px;
+  width: 40px
+}
+
+.link {
+  text-decoration:none; 
+}
