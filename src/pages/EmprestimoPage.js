@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './NavBar.js';
-import BoxInformationEmprestimo from './BoxInformationEmprestimo';
+import NavBar from '../components/NavBar.js';
+import BoxInformationEmprestimo from './components/BoxInformationEmprestimo';
 
 const EmprestimoPage = () => {
   return (

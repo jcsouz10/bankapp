@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import BoxItems from './BoxItems.js';
-import NavBar from './NavBar.js';
+import Box from '../components/Box.js';
+import NavBar from '../components/NavBar.js';
 
 class HomePage extends Component {
   render() {
     return (
       <div>
         <NavBar title="CUBIK BANK" />
-        <BoxItems />
+        <Box />
       </div>
     );
   }

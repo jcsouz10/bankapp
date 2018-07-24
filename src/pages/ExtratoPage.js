@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './NavBar.js';
-import BoxInformationExtrato from './BoxInformationExtrato';
+import NavBar from '../components/NavBar.js';
+import BoxInformationExtrato from '../pages/components/BoxInformationExtrato.js';
 
 const ExtratoPage = () => {
   const informationExtrato = [

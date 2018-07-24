@@ -1,8 +1,8 @@
 import React from 'react';
-import Box from './Box.js';
-import {maintenance} from './functions.js';
+import BoxItems from './BoxItems.js';
+import {maintenance} from '../utils/functions.js';
 
-const BoxItems = () => {
+const Box = () => {
   const namesItems =
     [{
       item: "EMPRESTIMO",
@@ -26,8 +26,8 @@ const BoxItems = () => {
     },]
 
   return (
-    <Box items={namesItems} />
+    <BoxItems items={namesItems} />
   )
 }
 
-export default BoxItems;
+export default Box;

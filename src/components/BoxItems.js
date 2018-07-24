@@ -1,8 +1,8 @@
 import React from 'react';
-import './Box.css';
+import '../styles/components/Box.css';
 import Item from './Item.js';
 
-class Box extends React.Component {
+class BoxItems extends React.Component {
   render() {
     return (
       <div className="box">
@@ -12,4 +12,4 @@ class Box extends React.Component {
   }
 }
 
-export default Box;
+export default BoxItems

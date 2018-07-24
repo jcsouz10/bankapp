@@ -1,5 +1,5 @@
 import React from 'react';
-import './BoxInformationEmprestimo.css';
+import '../../styles/pages/BoxInformationEmprestimo.css';
 
 const BoxInformationEmprestimo = () => {
   return (

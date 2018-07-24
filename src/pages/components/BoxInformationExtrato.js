@@ -1,5 +1,5 @@
 import React from 'react';
-import './BoxInformationExtrato.css';
+import '../../styles/pages/BoxInformationExtrato.css';
 
 class BoxInformationExtrato extends React.Component {
   render() {
